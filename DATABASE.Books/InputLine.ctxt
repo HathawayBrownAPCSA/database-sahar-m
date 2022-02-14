@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=InputLine
+comment0.text=\ A\ line\ of\ input\ in\ Comma-Separated-Values\ (CSV)\ format.\n\ \ This\ class\ includes\ methods\ for\ extracting\ the\ next\ token\n\ \ from\ the\ input\ String,\ and\ for\ determining\ whether\ \n\ \ there\ are\ any\ more\ tokens\ on\ the\ line.\n\n\ @author\ \ APCS-A\ @\ Hathaway\ Brown\ School\n\ @version\ 2020-01\n
+comment1.params=str
+comment1.target=InputLine(java.lang.String)
+comment1.text=\ Constructor\ initializes\ the\ InputLine\ with\ a\ String.\n\ \ PRECONDITION\:\ str\ is\ in\ Comma-Separated-Values\ (csv)\ format.\n\n@param\ \ \ str\ a\ new\ InputString\ in\ csv\ format
+comment2.params=
+comment2.target=boolean\ hasNext()
+comment2.text=\ \ Determines\ whether\ the\ InputString\ has\ another\ token\ or\ not\n\n\ \ @return\ true\ if\ there\ is\ another\ token\ on\ the\ InputString;\ false\ otherwise\n
+comment3.params=
+comment3.target=java.lang.String\ nextToken()
+comment3.text=\ Returns\ the\ next\ token\ in\ InputString\ and\ removes\ it\ from\n\ \ the\ String.\ \ Note\:\ returns\ a\ String;\ you\ must\ convert\n\ \ it\ to\ a\ different\ data\ type\ if\ you\ need\ one.\n\ \ POSTCONDITION\:\ the\ current\ token\ and\ following\ comma\ are\n\ \ \ \ removed\ from\ the\ InputString.\n\n\ \ @return\ a\ String\ representing\ the\ next\ token\ on\ the\ InputString\ \n
+numComments=4

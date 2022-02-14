@@ -1,0 +1,28 @@
+#BlueJ class context
+comment0.target=Book
+comment0.text=\n\ Represents\ a\ book\ for\ purchase*\n\ @author\ Sahar\ Maleki\n\ @version\ 2/13/22\n
+comment1.params=str
+comment1.target=Book(java.lang.String)
+comment10.params=other
+comment10.target=int\ compareTo(Book)
+comment2.params=t\ c\ p
+comment2.target=Book(java.lang.String,\ int,\ int)
+comment2.text=\ The\ constructor\ initializes\ values\ for\ book\ title,\ page\ count,\ and\ the\ users\ current\ page.\n\ it\ calculates\ the\ percent\ of\ the\ book\ the\ user\ has\ finished\ reading\n\ \n\ @param\ t\ The\ title\ of\ the\ book\n\ @param\ p\ The\ total\ page\ count\ of\ the\ book\n\ @param\ c\ The\ number\ of\ pages\ of\ the\ book\ free\ on\ google\ books\n
+comment3.params=
+comment3.target=int\ getFreePages()
+comment3.text=\ stores\ the\ users\ current\ page\ number\n\ \n\ @param\ currentPage\ the\ number\ of\ pages\ of\ the\ book\ free\ on\ google\ books\n\ @return\ currentPage\ the\ number\ of\ pages\ of\ the\ book\ free\ on\ google\ books\n
+comment4.params=
+comment4.target=int\ getPageCount()
+comment4.text=\ stores\ the\ total\ page\ count\ of\ the\ book\n\ \n\ @param\ pageCount\ the\ total\ number\ of\ pages\ in\ the\ book\n\ @return\ pageCount\ the\ total\ number\ of\ pages\ in\ the\ book\n
+comment5.params=
+comment5.target=java.lang.String\ getTitle()
+comment6.params=
+comment6.target=double\ getPercentAvail()
+comment6.text=\ Returns\ an\ int\ with\ the\ parameter\ formatted\ as\ a\ percent,\ to\ get\ the\ percent\ of\ the\ book\ that\ the\ user\ can\ read\ for\ free\ \n\ \n\ @param\ percentFree\ the\ percent\ to\ be\ displayed\n\ @return\ the\ percent\ of\ the\ book\ the\ user\ can\ read\ for\ free(as\ a\ double)\n\ \ \ \ \ \n\ \ \ \ private\ double\ percentFree(double\ free,\ double\ total)\n\ \ \ \ {\n\ \ \ \ \ \ \ \ double\ ans\ \=\ (double)\ free\ /\ total;\n\ \ \ \ \ \ \ \ return\ ans\ *\ 100.0;\n\ \ \ \ }\n
+comment7.params=
+comment7.target=java.lang.String\ toCSV()
+comment8.params=s
+comment8.target=java.lang.String\ withQuotes(java.lang.String)
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=11

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Library
+comment1.params=
+comment1.target=Library()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Library\n
+comment2.params=fileName
+comment2.target=Library(java.lang.String)
+comment3.params=b
+comment3.target=void\ insert(Book)
+comment3.text=\ inserts\ the\ new\ book\ into\ the\ lsit\ in\ the\ appropriate\ place\n\ @param\ nextBook\ the\ book\ to\ insert\ in\ the\ list\n
+comment4.params=fileName
+comment4.target=void\ writeToFile(java.lang.String)
+comment5.params=target
+comment5.target=java.util.ArrayList\ filter(java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=Writes\ the\ BookList\ with\ a\ new\ line\ between\ each\ Book
+numComments=7
